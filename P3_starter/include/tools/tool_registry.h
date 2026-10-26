@@ -16,6 +16,7 @@
 #include "tools/tool.h"
 
 #include <cstddef>
+#include <forward_list>
 #include <functional>
 #include <memory>
 #include <string_view>
@@ -66,8 +67,14 @@ public:
     static std::size_t hash(std::string_view key) noexcept;
 
 private:
-    // ===== YOUR REPRESENTATION GOES HERE =====
-    // Your buckets, your element count, and any private helpers you want
-    // (for example a rehash function). Store std::unique_ptr<Tool> in the
-    // buckets so that pointers handed out by find() survive a resize.
+    // Separate chaining: each bucket is a small linked list of owned tools.
+    // A unique_ptr's own storage never moves when the forward_list node it
+    // sits in is relocated during a rehash, so pointers handed out by find()
+    // stay valid (spec §4.3, "pointer stability").
+    std::vector<std::forward_list<std::unique_ptr<Tool>>> buckets_;
+    std::size_t size_ = 0;
+
+    // Doubles the bucket count and reinserts every existing tool, recomputing
+    // its index for the new bucket count.
+    void rehash(std::size_t new_bucket_count);
 };
