@@ -1,8 +1,0 @@
-/mnt/c/Users/priba/OneDrive/Documents/Prithu Bapu/NCSU/Fall 26/ECE309/PRJ3/P3_starter/build/CMakeFiles/harness_core.dir
-/mnt/c/Users/priba/OneDrive/Documents/Prithu Bapu/NCSU/Fall 26/ECE309/PRJ3/P3_starter/build/CMakeFiles/miniharness.dir
-/mnt/c/Users/priba/OneDrive/Documents/Prithu Bapu/NCSU/Fall 26/ECE309/PRJ3/P3_starter/build/CMakeFiles/test_p2.dir
-/mnt/c/Users/priba/OneDrive/Documents/Prithu Bapu/NCSU/Fall 26/ECE309/PRJ3/P3_starter/build/CMakeFiles/test_p3.dir
-/mnt/c/Users/priba/OneDrive/Documents/Prithu Bapu/NCSU/Fall 26/ECE309/PRJ3/P3_starter/build/CMakeFiles/test_loop.dir
-/mnt/c/Users/priba/OneDrive/Documents/Prithu Bapu/NCSU/Fall 26/ECE309/PRJ3/P3_starter/build/CMakeFiles/test.dir
-/mnt/c/Users/priba/OneDrive/Documents/Prithu Bapu/NCSU/Fall 26/ECE309/PRJ3/P3_starter/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/priba/OneDrive/Documents/Prithu Bapu/NCSU/Fall 26/ECE309/PRJ3/P3_starter/build/CMakeFiles/rebuild_cache.dir
