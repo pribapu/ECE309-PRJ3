@@ -1,0 +1,1 @@
+/usr/bin/c++ -fsanitize=address,undefined -Wl,--dependency-file=CMakeFiles/miniharness.dir/link.d CMakeFiles/miniharness.dir/src/main.cpp.o -o miniharness  libharness_core.a

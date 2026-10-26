@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/harness_core.dir/src/core/conversation.cpp.o"
+  "CMakeFiles/harness_core.dir/src/core/conversation.cpp.o.d"
+  "CMakeFiles/harness_core.dir/src/core/sentinel_scanner.cpp.o"
+  "CMakeFiles/harness_core.dir/src/core/sentinel_scanner.cpp.o.d"
+  "CMakeFiles/harness_core.dir/src/harness/harness.cpp.o"
+  "CMakeFiles/harness_core.dir/src/harness/harness.cpp.o.d"
+  "CMakeFiles/harness_core.dir/src/harness/tool_dispatcher.cpp.o"
+  "CMakeFiles/harness_core.dir/src/harness/tool_dispatcher.cpp.o.d"
+  "CMakeFiles/harness_core.dir/src/harness/transcript.cpp.o"
+  "CMakeFiles/harness_core.dir/src/harness/transcript.cpp.o.d"
+  "CMakeFiles/harness_core.dir/src/json/json_value.cpp.o"
+  "CMakeFiles/harness_core.dir/src/json/json_value.cpp.o.d"
+  "CMakeFiles/harness_core.dir/src/model/model_client.cpp.o"
+  "CMakeFiles/harness_core.dir/src/model/model_client.cpp.o.d"
+  "CMakeFiles/harness_core.dir/src/model/replay_client.cpp.o"
+  "CMakeFiles/harness_core.dir/src/model/replay_client.cpp.o.d"
+  "CMakeFiles/harness_core.dir/src/model/scripted_client.cpp.o"
+  "CMakeFiles/harness_core.dir/src/model/scripted_client.cpp.o.d"
+  "CMakeFiles/harness_core.dir/src/tools/builtin_tools.cpp.o"
+  "CMakeFiles/harness_core.dir/src/tools/builtin_tools.cpp.o.d"
+  "CMakeFiles/harness_core.dir/src/tools/calculator_eval.cpp.o"
+  "CMakeFiles/harness_core.dir/src/tools/calculator_eval.cpp.o.d"
+  "CMakeFiles/harness_core.dir/src/tools/calculator_tokenize.cpp.o"
+  "CMakeFiles/harness_core.dir/src/tools/calculator_tokenize.cpp.o.d"
+  "CMakeFiles/harness_core.dir/src/tools/calculator_tool.cpp.o"
+  "CMakeFiles/harness_core.dir/src/tools/calculator_tool.cpp.o.d"
+  "CMakeFiles/harness_core.dir/src/tools/file_tools.cpp.o"
+  "CMakeFiles/harness_core.dir/src/tools/file_tools.cpp.o.d"
+  "CMakeFiles/harness_core.dir/src/tools/tool_registry.cpp.o"
+  "CMakeFiles/harness_core.dir/src/tools/tool_registry.cpp.o.d"
+  "CMakeFiles/harness_core.dir/src/tools/workspace.cpp.o"
+  "CMakeFiles/harness_core.dir/src/tools/workspace.cpp.o.d"
+  "CMakeFiles/harness_core.dir/src/tools/workspace_provided.cpp.o"
+  "CMakeFiles/harness_core.dir/src/tools/workspace_provided.cpp.o.d"
+  "libharness_core.a"
+  "libharness_core.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/harness_core.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
